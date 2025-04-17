@@ -155,12 +155,43 @@
 
 
 /*** Hero Header ***/
+/* .hero-header {
+    background: linear-gradient(rgba(156, 2, 2, 0.9), rgba(182, 1, 1, 0.9));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.hero-header img {
+    animation: imgRotate 50s linear infinite;
+} */
+
+/* @keyframes imgRotate { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+} */
+
+/* .breadcrumb-item + .breadcrumb-item::before {
+    color: rgba(255, 255, 255, .5);
+}  */
+
 .hero-header {
     background: linear-gradient(rgba(156, 2, 2, 0.9), rgba(182, 1, 1, 0.9));
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
+
+    /* Reduce top and bottom padding */
+    padding: 40px 0; /* Previously was py-5 => 3rem => 48px top & bottom */
+}
+
+.hero-header .container {
+    margin-top: 0 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .hero-header img {
