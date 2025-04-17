@@ -185,7 +185,7 @@
     min-height: 200px;
 
     /* Reduce top and bottom padding */
-    padding: 40px 0; /* Previously was py-5 => 3rem => 48px top & bottom */
+    padding: 20px 0; /* Previously was py-5 => 3rem => 48px top & bottom */
 }
 
 .hero-header .container {
